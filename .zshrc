@@ -34,7 +34,7 @@ alias ....='cd ../../../'
 alias vim='nvim'
 
 # prompt
-PROMPT="%{${fg[cyan]}%}%n%{${reset_color}%} On %{${fg[yellow]}%}Weblio%{${reset_color}%}
+PROMPT="%{${fg[cyan]}%}%n%{${reset_color}%}
 〉"
 
 
