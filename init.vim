@@ -12,15 +12,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/shimaoka-shuya/.nvim/bundles/repos/github.com/Shougo/dein.vim
+set runtimepath+=/${HOME}/.nvim/bundles/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/shimaoka-shuya/.nvim/bundles')
-  call dein#begin('/home/shimaoka-shuya/.nvim/bundles')
+if dein#load_state('/${HOME}/.nvim/bundles')
+  call dein#begin('/${HOME}/.nvim/bundles')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/shimaoka-shuya/.nvim/bundles/repos/github.com/Shougo/dein.vim')
+  call dein#add('/${HOME}/.nvim/bundles/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
