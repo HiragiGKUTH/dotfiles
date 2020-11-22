@@ -1,7 +1,6 @@
 #!/bin/sh
 
 rm ~/.zshrc
-rm -rf ~/.vim
-rm -rf ~/.config/nvim
+rm ~/.tmux.conf
 
 chsh -s /bin/bash
