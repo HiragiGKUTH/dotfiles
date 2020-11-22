@@ -34,7 +34,7 @@ alias ....='cd ../../../'
 alias vim='nvim'
 
 # prompt
-PROMPT="%{${fg[cyan]}%}%n%{${reset_color}%}
+PROMPT="%{${fg[cyan]}%}%n%{${reset_color}%}%{${fg[red]}%}@%{${reset_color}%}%{${fg[yellow]}%}%m%{${reset_color}%}
 〉"
 
 
